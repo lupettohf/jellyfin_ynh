@@ -93,8 +93,7 @@ ynh_setup_source "$final_path"
 # INSTALL Jellyfin
 #==============================================
 
-dpkg --install  $final_path/jellyfin_10.1.0-1_amd64.deb
-
+dpkg --install  $final_path/jellyfin_10.3.7-1_amd64.deb
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
